@@ -1,0 +1,15 @@
+Analysis Summary (1200 seconds timeout)
+===========================================
+Timestamp: Sun Dec  8 07:09:14 CET 2024
+
+Sources and Sinks:
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /home/micsispa/Downloads/APKs/linko.home.apk with 71 sources and 193 sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 83 sources and 1233 sinks.
+
+Found Leaks:
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 0 leaks from 0 sources
+
+Performance:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 2788 seconds. Maximum memory consumption: 2189 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 2788 seconds. Maximum memory consumption: 2189 MB

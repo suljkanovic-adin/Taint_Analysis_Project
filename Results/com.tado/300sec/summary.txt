@@ -1,0 +1,18 @@
+Analysis Summary (300 seconds timeout)
+===========================================
+Timestamp: Fri Dec  6 10:38:28 CET 2024
+
+Sources and Sinks:
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /home/micsispa/Downloads/APKs/com.tado.apk with 71 sources and 193 sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 38 sources and 225 sinks.
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 5 connections between sources and sinks
+[main] INFO soot.jimple.infoflow.data.pathBuilders.DefaultPathBuilderFactory$RepeatableContextSensitivePathBuilder - Obtainted 2 connections between sources and sinks
+
+Found Leaks:
+[main] INFO soot.jimple.infoflow.android.SetupApplication - Found 9 leaks from 27 sources
+
+Performance:
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 81 seconds. Maximum memory consumption: 2572 MB
+[main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Data flow solver took 81 seconds. Maximum memory consumption: 2572 MB
